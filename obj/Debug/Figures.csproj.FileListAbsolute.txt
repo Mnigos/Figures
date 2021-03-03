@@ -1,0 +1,10 @@
+C:\Users\makow\source\repos\Figures\bin\Debug\Figures.exe.config
+C:\Users\makow\source\repos\Figures\bin\Debug\Figures.exe
+C:\Users\makow\source\repos\Figures\bin\Debug\Figures.pdb
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.csprojAssemblyReference.cache
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.Form1.resources
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.Properties.Resources.resources
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.csproj.GenerateResource.cache
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.exe
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.pdb
