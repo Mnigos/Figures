@@ -8,3 +8,4 @@ C:\Users\makow\source\repos\Figures\obj\Debug\Figures.csproj.GenerateResource.ca
 C:\Users\makow\source\repos\Figures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
 C:\Users\makow\source\repos\Figures\obj\Debug\Figures.exe
 C:\Users\makow\source\repos\Figures\obj\Debug\Figures.pdb
+C:\Users\makow\source\repos\Figures\obj\Debug\Figures.Form2.resources
