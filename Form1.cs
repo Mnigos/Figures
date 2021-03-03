@@ -34,5 +34,10 @@ namespace Figures
             txtCircuit.Text = (2 * Math.PI * radius).ToString();
             txtField.Text = (Math.PI * Math.Sqrt(radius)).ToString();
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
