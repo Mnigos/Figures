@@ -15,6 +15,8 @@ namespace Figures
         private int sideA;
         private int sideB;
 
+        private bool isOpen = true;
+
         public Form2()
         {
             InitializeComponent();
@@ -27,6 +29,20 @@ namespace Figures
 
             txtCircuit.Text = ((2 * sideA) + (2 * sideB)).ToString();
             txtField.Text = (sideA * sideB).ToString();
+        }
+
+        private void btnChangeWindow_Click(object sender, EventArgs e)
+        {
+            Form1 rectangle = new Form1();
+            isOpen = false;
+
+            rectangle.Show();
+            this.Hide();
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (isOpen) Application.Exit();
         }
     }
 }

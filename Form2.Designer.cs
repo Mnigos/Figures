@@ -51,8 +51,9 @@
             this.btnChangeWindow.Name = "btnChangeWindow";
             this.btnChangeWindow.Size = new System.Drawing.Size(75, 23);
             this.btnChangeWindow.TabIndex = 10;
-            this.btnChangeWindow.Text = "Prostokąt";
+            this.btnChangeWindow.Text = "Koło";
             this.btnChangeWindow.UseVisualStyleBackColor = true;
+            this.btnChangeWindow.Click += new System.EventHandler(this.btnChangeWindow_Click);
             // 
             // txtField
             // 
@@ -100,6 +101,7 @@
             this.Controls.Add(this.btnCount);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numInputA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numInputB)).EndInit();
             this.ResumeLayout(false);
