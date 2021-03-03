@@ -99,6 +99,7 @@
             this.Controls.Add(this.txtField);
             this.Controls.Add(this.txtCircuit);
             this.Controls.Add(this.btnCount);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form2";
             this.Text = "Form2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
